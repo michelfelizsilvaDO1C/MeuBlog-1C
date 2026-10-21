@@ -1,3 +1,82 @@
+:root {
+    --cor-primaria: #183C63;
+    --cor-secundaria: #3a5b7e;
+    --cor-fundo: #f6faf8f5;
+    --cor-texto: #17175df5;
+    --cor-contraste: #f2f2faf5;
+    --cor-botao: #f2f2faf5;
+
+    header {
+    background-color: var(--cor-primaria);
+}
+
+main {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+
+.tema-escuro {
+    --cor-primaria: #73afa4f5;
+    --cor-secundaria: #138779f5;
+    --cor-fundo: #2c2c41f5;
+    --cor-texto: #f2f2faf5;
+    --cor-contraste: #171719f5;
+    --cor-botao: #242431f5;
+}
+.tema-escuro a {
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}.tema-escuro p
+.tema-escuro p {
+    color: var(--cor-texto);
+}
+.tema-escuro header p {
+.tema-escuro header p {
+    color: var(--cor-contraste);
+}
+--fonte-texto:
+body {
+    max-width: 100vw;
+    font-family: 'Segoe UI', sans-serif;
+body {
+    max-width: 100vw;
+    font-family: var(--fonte-texto);
+}
+--fonte-texto: 'Segoe UI', sans-serif;
+}
+}
+
+
+}
+
+}
+/* Estilo específico para o botão quando o tema escuro estiver ativo */
+.tema-escuro .btn-tema-escuro {
+    background-color: var(--cor-secundaria);
+}
+/* O asterisco aplica a regra a todos os elementos do site */
+* {
+    transition: background-color 0.3s ease;
+}
+article {
+    display: flex;
+    /* x-offset | y-offset | blur-radius | color (com transparência) */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
 body{
     max-width: 100vw;
 }
